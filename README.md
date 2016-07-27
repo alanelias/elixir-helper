@@ -14,7 +14,7 @@ gulp watch --template customer-service --css
 ## Installation 
 **npm**  
 ```
-npm install alixir --save-dev
+npm install elixir-helper --save-dev
 
 npm install gulp --save-dev
 

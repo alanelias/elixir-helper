@@ -15,7 +15,7 @@ gulp watch --template customer-service --css
 ## Installation ##
 **npm**  
 ```
-npm install alixir --save-dev
+npm install elixir-helper --save-dev
 
 npm install gulp@">=0.1.0 <=3.9.1" --save-dev
 
@@ -27,10 +27,10 @@ npm install laravel-elixir@">=0.1.0 <=5.0.0" --save-dev
 ## Usage
 **gulpfile.js** 
 ```
-require('alixir');
+require('elixir-helper');
 ```
 
-Create **alixir.json** in the project root dir to override alixir config (files, filters and path) [see documentaion](ALIXIR.md) 
+Create **alixir.json** in the project root dir to override elixir-helper config (files, filters and path) [see documentaion](ALIXIR.md) 
 ```json
 {
   "files": {
@@ -231,7 +231,7 @@ start with:
 gulp help
 ```
 
-to view alixir config:
+to view elixir-helper config:
 ```
 gulp config
 ```
@@ -259,6 +259,6 @@ gulp assets
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details
 
 

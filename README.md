@@ -26,7 +26,7 @@ Alixir is `npm package` built on top of elixir and gulp, its an easy cleaning so
 │       └───/package3/
 │
 ├───/resources/
-│   ├───/Assets/
+│   ├───/assets/
 │   │   │
 │   │   ├────/js/
 │   │   │    ├────/common/

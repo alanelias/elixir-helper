@@ -1,5 +1,5 @@
 # Alixir | elixir-helper | laravel-elixir-helper
-Alixir is `npm package` built on top of elixir and gulp, its an easy cleaning solution to CSS / JS mess. Giving you a nice clean structure for organizing all your sites assets whether it is images, javascript files, or stylesheets and keeps the power of SASS, Browserify, versioning at your fingertips in simple commands you might already be familiar with.
+elixir-helper is `npm package` built on top of elixir and gulp, its an easy cleaning solution to CSS / JS mess. Giving you a nice clean structure for organizing all your sites assets whether it is images, javascript files, or stylesheets and keeps the power of SASS, Browserify, versioning at your fingertips in simple commands you might already be familiar with.
 **The advantage of this package is breaking down all your project assets files as templates by filtering gulp and dealing with json files without editing gulp** 
 
 ## You can use this:
@@ -78,6 +78,7 @@ npm install gulp --save-dev
 
 npm install laravel-elixir --save-dev
 ```
+**Note** `production` usage you can install all required packages with `--save` for production
 
 **Note** if you have this error:
 `gulp-notify: [Laravel Elixir] Browserify Failed!: Couldn't find preset "es2015" relative to directory` 
@@ -91,7 +92,13 @@ npm install babel-preset-react --save-dev
 ```
 npm install laravel-elixir-browserify-official --save-dev
 ```
+**Note** if you have any problems with files permissions you can run `sudo` on mac
 
+**On Deploy** run the following commands: 
+```
+gulp assets
+gulp --production
+```
 
 ## Usage
 **gulpfile.js** 

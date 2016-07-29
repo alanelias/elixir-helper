@@ -42,9 +42,9 @@ npm install gulp-util --save
 
 then add this to `gulpfile.js`
 ```javascript
-var gunit = require('gulp-util');
+var gutil = require('gulp-util');
 
-gunit.env.ALIXIER_CONFIG = {
+gutil.env.ALIXIER_CONFIG = {
     "files": {
         "styles": "resources/assets/styles.json",
         "scripts": "resources/assets/scripts.json",
@@ -57,7 +57,7 @@ gunit.env.ALIXIER_CONFIG = {
     }
 };
 
-require("elixir-helper");
+require("alixir");
 ```
 
 
@@ -81,13 +81,14 @@ require("elixir-helper");
 {
   "filters": {
     "%key%": "value",
+    "%key%": "value",
     "%images%": "public/images",
     "%fonts%": "public/fonts"
   }
 }
 ```
 
-**Elixir Notifications:** some people don't like elixir notifications so you can turn it off by adding this:
+**Elixir Notifications:** some people don't like elixir notifications so you can turn it off allways by adding this:
 
 ```json
 {
@@ -96,7 +97,6 @@ require("elixir-helper");
   }
 }
 ```
-
 
 
 [Go Back](README.md)

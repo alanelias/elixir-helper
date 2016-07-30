@@ -86,3 +86,6 @@ and then do search and replace for images path in the css file (find `images/` r
 ```
 
 [Go Back](README.md)
+
+
+**Note** if you have a problem with permissions [see documentation](ALIXIR.md) about overriding chmod settings

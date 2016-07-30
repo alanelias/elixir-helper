@@ -72,11 +72,13 @@ gulp watch --css
 ## Installation 
 **npm**  
 ```
-npm install elixir-helper --save-dev
-
 npm install gulp --save-dev
 
+npm install gulp-util --save-dev
+
 npm install laravel-elixir --save-dev
+
+npm install elixir-helper --save-dev
 ```
 **Note** `production` usage you can install all required packages with `--save` for production
 
